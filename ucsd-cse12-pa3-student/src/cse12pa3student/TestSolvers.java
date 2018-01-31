@@ -13,7 +13,7 @@ public class TestSolvers {
 
 	/* Helper method to compare two mazes */
 	public void checkMaze(SearchWorklist wl, Maze startMaze, String[] expected) {
-		Square s = MazeSolver.solve(startMaze, new StackWorklist());
+		Square s = MazeSolver.solve(startMaze, wl);
 		if(expected == null) { assertNull(s); }
 		else {
 			String actualStr = formatMaze(startMaze.showSolution());
