@@ -1,3 +1,5 @@
-Put your README here!
+Collaborators (write “I did not collaborate with anyone” if you didn't):
 
-(Can be either .md or .txt file)
+
+
+Answers to written questions:
